@@ -39,7 +39,7 @@ jobs:
         VALIDATE_ALL_CODEBASE: true
         DEFAULT_BRANCH: main
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
+
 This workflow checks out the code and runs the Super Linter to ensure your code from the bookStore app adheres to the standards.
 
 Running and Troubleshooting Workflows
