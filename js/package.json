@@ -6,7 +6,9 @@
     "scripts": {
       "test": "jasmine-browser-runner runSpecs",
       "lint": "standard",
-      "lint-fix": "standard --fix"
+      "lint-fix": "standard --fix",
+      "stylelint": "stylelint 'css/**/*.css'",
+      "stylelint-fix": "stylelint 'css/**/*.css' --fix"
     },
     "repository": {
       "type": "git",
@@ -23,7 +25,9 @@
       "jasmine": "^5.1.0",
       "jasmine-browser-runner": "^2.5.0",
       "jasmine-core": "^5.1.2",
-      "standard": "^16.0.4"
+      "standard": "^16.0.4",
+      "stylelint": "^14.16.1",
+      "stylelint-config-standard": "^28.0.0"
     }
   }
   
