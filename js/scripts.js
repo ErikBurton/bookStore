@@ -4,7 +4,7 @@ let cart = []
 //   localStorage.setItem('cart', JSON.stringify(cart))
 // }
 
- function loadCart() {
+function loadCart () {
   const savedCart = localStorage.getItem('cart')
   if (savedCart) {
     cart = JSON.parse(savedCart)
@@ -12,7 +12,7 @@ let cart = []
   displayCart()
  }
 
- function displayCart() {
+function displayCart () {
   const cartItems = document.getElementById('cart-items')
   const totalPrice = document.getElementById('total-price')
   cartItems.innerHTML = ''
@@ -25,6 +25,6 @@ let cart = []
     total += book.price
   })
   totalPrice.innerText = total.toFixed(2)
- }
+}
 
- document.addEventListener('DOMContentLoaded', loadCart)
+document.addEventListener('DOMContentLoaded', loadCart)
