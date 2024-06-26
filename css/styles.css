@@ -1,40 +1,41 @@
 body {
-  font-family: Arial, sans-serif;
-  }
+font-family: Arial, sans-serif;  
+}
   
-  header {
-  background-color: #4caf50;
-  color: white;
-  padding: 1em;
-  text-align: center;
-  }
+header {
+background-color: #4caf50;
+color: white;
+padding: 1em;
+text-align: center;
+}
   
-  nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-  }
+nav a {
+margin: 0 15px;
+color: white;
+text-decoration: none;
+}
   
-  main {
-  padding: 1em;
-  }
+main {
+padding: 1em;
+}
   
-  .book {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  }
+.book {
+border: 1px solid #ddd;
+padding: 10px;
+margin: 10px;
+text-align: center;
+}
   
-  button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  }
+button {
+background-color: #4caf50;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
   
-  button:hover {
-  background-color: #45a049;
-  }
+button:hover {
+background-color: #45a049;
+}
+
   
