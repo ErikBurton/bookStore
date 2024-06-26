@@ -10,7 +10,7 @@ function loadCart () {
     cart = JSON.parse(savedCart)
   }
   displayCart()
- }
+}
 
 function displayCart () {
   const cartItems = document.getElementById('cart-items')
