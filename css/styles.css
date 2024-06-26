@@ -1,39 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-header {
-    background-color:  #4caf50;
+  }
+  
+  header {
+    background-color: #4CAF50;
     color: white;
     padding: 1em;
     text-align: center;
-}
-
-nav a {
+  }
+  
+  nav a {
     margin: 0 15px;
     color: white;
     text-decoration: none;
-}
-
-main {
+  }
+  
+  main {
     padding: 1em;
-}
-
-.book {
+  }
+  
+  .book {
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px;
     text-align: center;
-}
-
-button {
-    background-color: #4caf50;
+  }
+  
+  button {
+    background-color: #4CAF50;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #45a049;
-}
+  }
+  
