@@ -1,4 +1,4 @@
-# GitHub Actions Introduction: Automate Testing and Delivery
+# Book Store using GitHub Actions: Automate Testing and Delivery
 Overview
 GitHub Actions is a powerful CI/CD tool integrated within GitHub, enabling developers to automate the testing and delivery of their code efficiently. This guide explains the core concepts of GitHub Actions, including continuous integration (CI) and continuous delivery (CD), and provides a walkthrough on setting up and using GitHub Actions in your projects.
 
