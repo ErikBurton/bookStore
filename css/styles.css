@@ -1,31 +1,31 @@
 body {
   font-family: Arial, sans-serif;
 }
-  
+
 header {
   background-color: #4caf50;
   color: white;
   padding: 1em;
   text-align: center;
 }
-  
+
 nav a {
   margin: 0 15px;
   color: white;
   text-decoration: none;
-} 
-  
+}
+
 main {
   padding: 1em;
 }
-  
+
 .book {
   border: #ddd solid 1px;
   padding: 10px;
   margin: 10px;
   text-align: center;
 }
-  
+
 button {
   background-color: #4caf50;
   color: white;
@@ -33,10 +33,9 @@ button {
   border: none;
   cursor: pointer;
 }
-  
+
 button:hover {
   background-color: #45a049;
 }
 
 
-  
