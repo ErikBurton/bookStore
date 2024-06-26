@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-success text-white text-center py-3">
+        <h1>Welcome to the Bookstore</h1>
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-white" href="index.html">Home</a>
+            <a class="nav-link text-white" href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main class="container my-4">
+        <h2>Our Books</h2>
+        <div class="row">
+            <div class="col-md-3 book" id="book1">
+                <img src="images/book1.jpg" class="img-fluid" alt="Book 1">
+                <h3>Book Title 1</h3>
+                <p>Author 1</p>
+                <p>$10.00</p>
+                <button class="btn btn-success" onclick="addToCart('book1', 'Book Title 1', 10.00)">Add to Cart</button>
+            </div>
+            <div class="col-md-3 book" id="book2">
+                <img src="images/book2.jpg" class="img-fluid" alt="Book 2">
+                <h3>Book Title 2</h3>
+                <p>Author 2</p>
+                <p>$12.00</p>
+                <button class="btn btn-success" onclick="addToCart('book2', 'Book Title 2', 12.00)">Add to Cart</button>
+            </div>
+            <div class="col-md-3 book" id="book3">
+                <img src="images/book3.jpg" class="img-fluid" alt="Book 3">
+                <h3>Book Title 3</h3>
+                <p>Author 3</p>
+                <p>$15.00</p>
+                <button class="btn btn-success" onclick="addToCart('book3', 'Book Title 3', 15.00)">Add to Cart</button>
+            </div>
+            <div class="col-md-3 book" id="book4">
+                <img src="images/book4.jpg" class="img-fluid" alt="Book 4">
+                <h3>Book Title 4</h3>
+                <p>Author 4</p>
+                <p>$20.00</p>
+                <button class="btn btn-success" onclick="addToCart('book4', 'Book Title 4', 20.00)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
