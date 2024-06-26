@@ -1,0 +1,29 @@
+{
+    "name": "books",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jasmine-browser-runner runSpecs",
+      "lint": "standard",
+      "lint-fix": "standard --fix"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ErikBurton/Books.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ErikBurton/Books/issues"
+    },
+    "homepage": "https://github.com/ErikBurton/Books#readme",
+    "devDependencies": {
+      "jasmine": "^5.1.0",
+      "jasmine-browser-runner": "^2.5.0",
+      "jasmine-core": "^5.1.2",
+      "standard": "^16.0.4"
+    }
+  }
+  
